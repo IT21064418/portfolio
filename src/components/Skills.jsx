@@ -6,6 +6,7 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import Mongo from '../assets/mongo.png';
 import Java from '../assets/java-logo.png';
+import PHP from '../assets/PHP.png'
 
 const Skills = () => {
   return (
@@ -16,7 +17,7 @@ const Skills = () => {
                 <p className=' text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
                 <p className=' py-4'>//These are technologies I've worked with</p>
             </div>
-            <div className=' w-full grid grid-cols-2 sm:grid-cols-3 gap-5 text-center py-8'>
+            <div className=' w-full grid grid-cols-2 sm:grid-cols-4 gap-5 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className=' w-20 mx-auto' src={HTML} alt="HTML icon" />
                     <p className=' my-4'>HTML</p>
@@ -41,10 +42,14 @@ const Skills = () => {
                     <img className=' w-20 mx-auto' src={Mongo} alt="Mongo icon" />
                     <p className=' my-4'>MONGO DB</p>
                 </div>
-                {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img style={{ width: '250px', height: '250px'}} className=' w-20 mx-auto' src={Java} alt="Mongo icon" />
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className=' w-20 mx-auto' src={Java} alt="Mongo icon" />
                     <p className=' my-4'>Java</p>
-                </div> */}
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className=' w-20 mx-auto' src={PHP} alt="Mongo icon" />
+                    <p className=' my-4'>PHP</p>
+                </div>
             </div>
         </div>
     </div>

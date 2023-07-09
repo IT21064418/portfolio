@@ -3,7 +3,8 @@ import WorkImg from '../assets/workImg.jpeg'
 import realEstate from '../assets/realestate.jpg'
 import airLine from '../assets/airline.png'
 import futureDoc from '../assets/futureDoc.png'
-import riyasaka from '../assets/Riyasaka.png'
+import riyasaka from '../assets/Riyasaka.jpeg'
+import slHerbals from '../assets/lanka_herbals.png'
 
 const Work = () => {
   return (
@@ -63,13 +64,13 @@ const Work = () => {
                     {/*  Hover effect */}
                     <div className=' opacity-0 group-hover:opacity-100'>
                         <span className=' text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            Java Mobile Application
                         </span>
                         <div>
                             <a href='/'>
                                 <button className=' text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a href='https://github.com/IT21064418/MAD_Titans_Riyasaka.git'>
                                 <button className=' text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -77,7 +78,7 @@ const Work = () => {
                 </div>
                 {/* Grid Item */}
                 <div
-                    style={{backgroundImage: `url(${realEstate})`}}
+                    style={{backgroundImage: `url(${slHerbals})`}}
                     className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                 >
                     {/*  Hover effect */}
@@ -89,7 +90,7 @@ const Work = () => {
                             <a href='/'>
                                 <button className=' text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a href='https://github.com/IT21064418/Y3.S1.WE.SE.01.01_CSSE_21.git'>
                                 <button className=' text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>Code</button>
                             </a>
                         </div>
